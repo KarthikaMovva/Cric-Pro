@@ -1,0 +1,65 @@
+/* Type your code here */
+.title{
+    display: flex;
+    margin-top: 3vh;
+    justify-content: flex-end;
+  }
+  .row{
+    background-color: red;
+    width: 59%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    color: white;
+    font-weight: 900;
+    font-size: 1.1rem;
+  }
+  .pic{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+  }
+  .pic img{
+   max-width: 100%;
+   height: auto;
+  }
+  .team1{
+    cursor: pointer;
+    color: blue;
+    font-weight: 800;
+  }
+  body{
+    margin: 0;
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  table{
+    width: 60%;
+    border-collapse: collapse;
+    border: 1px solid rgb(251, 250, 250);
+    background-color: white;
+  }
+  td,th{
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 3px solid rgb(212, 211, 211);
+  }
+  .noteam{
+    display: flex;
+  }
+  .vs{
+    font-size: large;
+  }
+  h1{
+   text-shadow: 5px 2px 15px #151515;
+  }
+  .team2{
+    color: grey;
+    font-weight: 700;
+  }
